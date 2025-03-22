@@ -1,0 +1,12 @@
+Spark UI
+
+jobs - pokazuje takie podsumowanie wszystkich jobów w naszej aplikacji i szczegóły każdego joba. Dodatkowo mamy pokazanego usera, czas od kiedy aplikacja rozpoczęła działanie, scheduling mode czyli sposób zarządzania zasobami w klastrze i liczbę jobów
+stages - pokazuje podsumowanie stage'ów 
+storage - pokazuje poziom przechowywania, rozmiary i partycje wszystkich RDDs i ogólnie o danych przechowywanych w pamięci
+environment - pokazuje informacje o konfiguracji środowiska Spark, np. ustawienia JVM czy zmienne środowiskowe
+executors - pokazuje informacje o driverze i executorach
+sql/dataframe - jeżeli aplikacja wykonuje zapytania Spark sql, to pokazuje informacje o czasie wykonania, jobach i fizycznych/logicznych planach zapytań
+jdbc/odbc server - monitoruje zapytania sql przesyłane przez klientów jdbc/odbc
+structured streaming - pokazuje statystyki dla aktywnych i skończonych zapytań
+connect - monitoruje sesje użytkowników i zapytania przesyłane do spark connect server
+
